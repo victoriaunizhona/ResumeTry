@@ -193,7 +193,8 @@ div.ewrap::after {
   text-align: left;
 }
 
-.fa {
+#social-media .fa,
+#hobbies .fa {
   padding: 10px;
   font-size: 20px;
   width: 20px;
@@ -206,6 +207,26 @@ div.ewrap::after {
   color: #edf1f1;
 }
 
-.fa:hover {
+#social-media .fa:hover {
   opacity: 0.7;
+}
+
+#hobbies .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  margin: 5px 2px;
+}
+
+/* Languages */
+.language-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.lang-item {
+  margin: 0.1rem 1.3rem;
+  font-size: 1.1rem;
 }
